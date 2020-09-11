@@ -1,0 +1,30 @@
+package com.company;
+import java.lang.*;
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+    float n1, n2, RSUMA, RRESTA, RMULTIPLICACION, RDIVISION, RMODULO;
+    Scanner keyboard = new Scanner(System.in);
+    System.out.println("BIENVENIDO, AQUI PODRÁS REALIZAR LAS OPERACIONES BÁSICAS Y VERÁS LOS RESULTADOS CORRESPONDIENTES");
+    System.out.println("Ingresa el primer número: ");
+    n1=keyboard.nextFloat();
+    System.out.println("Ingresa el segundo número: ");
+    n2=keyboard.nextFloat();
+    RSUMA=n1+n2;
+    RRESTA=n1-n2;
+    RMULTIPLICACION=n1*n2;
+    RDIVISION=n1/n2;
+    RMODULO=n1%n2;
+    System.out.println("n1: "+n1);
+    System.out.println("n2: "+n2);
+    System.out.println("SUMA: "+RSUMA);
+    System.out.println("RESTA: "+RRESTA);
+    System.out.println("MULTIPLICACION: "+RMULTIPLICACION);
+    System.out.println("DIVISION: "+RDIVISION);
+    System.out.println("MODULO: "+RMODULO);
+    }
+}
